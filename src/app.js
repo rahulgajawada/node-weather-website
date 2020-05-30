@@ -72,7 +72,7 @@ app.get('/products', (req, res) => {
 
 app.get('/help', (req,res) => {
     res.render('help', {
-        title: 'YOLO HELP',
+        title: 'Help',
         name: 'Rahul'
     })
 })
